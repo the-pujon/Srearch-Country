@@ -9,6 +9,7 @@ const Search = (props) => {
   };
   useEffect(() => {
     props.onSearch(search);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search]);
 
   return (
