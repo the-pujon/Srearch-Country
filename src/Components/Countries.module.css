@@ -1,0 +1,19 @@
+.container {
+  /*align-items: center;
+  justify-items: center;*/
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    grid-template-columns: auto auto auto;
+  }
+}
